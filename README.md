@@ -27,12 +27,19 @@ In a world where information overload is the norm, FlashCard stands out by makin
 * **Engaging**: Taking cues from TikTok, FlashCard makes learning as addictive as scrolling through
   your favorite videos, turning every swipe into a step towards knowledge.
 
+### Work Done So Far
+
+https://github.com/jatezzz/flashcard/assets/34223334/8c919a95-50c9-4821-a656-303d247d7e7f
+
+https://github.com/jatezzz/flashcard/assets/34223334/cb7bfe45-6218-4b8a-a909-4ee69b624bff
+
+
 ### Special Announcement for Developers
 
 Our journey is an exciting one, and it grows with each contribution. While our backend currently
 showcases the wonders of art through The Metropolitan Museum of Art Collection API, we're opening
-the floor for an innovative enhancement: **the integration of personal or curated flashcard content
-**. This addition requires setting up a local import mechanism—a fantastic opportunity for
+the floor for an innovative enhancement: The integration of personal or curated flashcard content.
+This addition requires setting up a local import mechanism—a fantastic opportunity for
 developers looking to make a significant impact.
 
 ### Technologies Behind the Magic
