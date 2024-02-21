@@ -29,7 +29,11 @@ In a world where information overload is the norm, FlashCard stands out by makin
 
 ### Work Done So Far
 
-https://github.com/jatezzz/flashcard/assets/34223334/8c919a95-50c9-4821-a656-303d247d7e7f
+
+
+https://github.com/jatezzz/flashcard/assets/34223334/61821e82-645c-42ce-8cd9-a7f378a81310
+
+
 
 https://github.com/jatezzz/flashcard/assets/34223334/cb7bfe45-6218-4b8a-a909-4ee69b624bff
 
