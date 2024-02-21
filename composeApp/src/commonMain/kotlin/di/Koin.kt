@@ -18,10 +18,10 @@ val dataModule = module {
         }
     }
 
-    single<MuseumApi> { KtorMuseumApi(get()) }
-    single<MuseumStorage> { InMemoryMuseumStorage() }
+    single<QuestionApi> { KtorQuestionApi(get()) }
+    single<QuestionStorage> { InMemoryMuseumStorage() }
     single {
-        MuseumRepository(get(), get()).apply {
+        QuestionRepository(get(), get()).apply {
             initialize()
         }
     }

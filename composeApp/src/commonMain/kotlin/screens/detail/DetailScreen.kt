@@ -56,7 +56,7 @@ data class DetailScreen(val objectId: Int) : Screen {
 
 @Composable
 private fun ObjectDetails(
-    obj: MuseumObject,
+    obj: QuestionObject,
     onBackClick: () -> Unit,
     modifier: Modifier = Modifier,
 ) {

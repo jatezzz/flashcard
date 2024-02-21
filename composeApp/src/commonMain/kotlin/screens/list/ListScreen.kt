@@ -55,7 +55,7 @@ data object ListScreen : Screen {
 
 @Composable
 private fun ObjectGrid(
-    objects: List<MuseumObject>,
+    objects: List<QuestionObject>,
     onObjectClick: (Int) -> Unit,
     modifier: Modifier = Modifier,
 ) {
@@ -76,7 +76,7 @@ private fun ObjectGrid(
 
 @Composable
 private fun ObjectFrame(
-    obj: MuseumObject,
+    obj: QuestionObject,
     onClick: () -> Unit,
     modifier: Modifier = Modifier,
 ) {

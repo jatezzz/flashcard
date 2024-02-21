@@ -1,7 +1,7 @@
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class MuseumObject(
+data class QuestionObject(
     val objectID: Int,
     val title: String,
     val artistDisplayName: String,
