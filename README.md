@@ -8,6 +8,12 @@ Ready to take your learning journey to the next level? **FlashCard** marries the
 flashcards with the engaging, accessible format inspired by TikTok, making it easier and more fun to
 absorb knowledge on any topic, anytime, anywhere.
 
+https://github.com/jatezzz/flashcard/assets/34223334/61821e82-645c-42ce-8cd9-a7f378a81310
+
+
+
+https://github.com/jatezzz/flashcard/assets/34223334/cb7bfe45-6218-4b8a-a909-4ee69b624bff
+
 ### The FlashCard Experience
 
 We believe in learning without limits. That's why FlashCard utilizes the fascinating collections
@@ -26,17 +32,6 @@ In a world where information overload is the norm, FlashCard stands out by makin
   be it on your commute, during a break, or in a cozy corner of your home.
 * **Engaging**: Taking cues from TikTok, FlashCard makes learning as addictive as scrolling through
   your favorite videos, turning every swipe into a step towards knowledge.
-
-### Work Done So Far
-
-
-
-https://github.com/jatezzz/flashcard/assets/34223334/61821e82-645c-42ce-8cd9-a7f378a81310
-
-
-
-https://github.com/jatezzz/flashcard/assets/34223334/cb7bfe45-6218-4b8a-a909-4ee69b624bff
-
 
 ### Special Announcement for Developers
 
