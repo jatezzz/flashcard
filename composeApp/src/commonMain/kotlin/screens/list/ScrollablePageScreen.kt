@@ -4,7 +4,6 @@ import QuestionObject
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -18,7 +17,6 @@ import androidx.compose.material.icons.filled.Email
 import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.Share
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.graphics.Color
@@ -31,7 +29,7 @@ import io.kamel.image.asyncPainterResource
 
 
 @Composable
-fun TikTokLikeScreen(
+fun ScrollablePageScreen(
     obj: QuestionObject,
     onClick: () -> Unit,
     modifier: Modifier = Modifier,
@@ -52,6 +50,7 @@ fun TikTokLikeScreen(
             .padding(8.dp)
     ) {
         Column {
+
             Text(
                 text = obj.artistDisplayName,
                 color = Color.Gray,
@@ -71,9 +70,8 @@ fun TikTokLikeScreen(
                 fontSize = 12.sp
             )
             Spacer(modifier = Modifier.height(24.dp))
-            Row(
+            Column(
                 modifier = Modifier.fillMaxWidth(),
-                verticalAlignment = Alignment.CenterVertically
             ) {
                 Icon(
                     imageVector = Icons.Default.Favorite,
