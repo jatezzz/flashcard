@@ -75,7 +75,6 @@ private fun ObjectDetails(
                 .verticalScroll(rememberScrollState())
                 .padding(paddingValues)
         ) {
-            Text("Hola :)")
             KamelImage(
                 resource = asyncPainterResource(data = obj.primaryImageSmall),
                 contentDescription = obj.title,
