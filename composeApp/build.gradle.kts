@@ -6,6 +6,7 @@ plugins {
     alias(libs.plugins.jetbrainsCompose)
     alias(libs.plugins.kotlinxSerialization)
     alias(libs.plugins.mokoResources)
+    alias(libs.plugins.sqldelight)
 }
 
 kotlin {
@@ -36,12 +37,14 @@ kotlin {
                 implementation(libs.compose.ui.tooling.preview)
                 implementation(libs.androidx.activity.compose)
                 implementation(libs.ktor.client.okhttp)
+                implementation(libs.sqldelight.android)
             }
             // Required for moko-resources to work
             dependsOn(other = commonMain.get())
         }
         iosMain.dependencies {
             implementation(libs.ktor.client.darwin)
+            implementation(libs.sqldelight.ios)
         }
         commonMain.dependencies {
             implementation(compose.runtime)
@@ -106,4 +109,16 @@ android {
 
 multiplatformResources {
     multiplatformResourcesPackage = "com.jatezzz.flashcard"
+}
+
+sqldelight {
+//    database("Database") {
+//        packageName = "com.jatezzz.flashcard.database"
+//        sourceFolders = listOf("sqldelight")
+//    }
+    databases {
+        create("Database") {
+            packageName.set("com.jatezzz.flashcard")
+        }
+    }
 }
